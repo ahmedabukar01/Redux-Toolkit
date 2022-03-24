@@ -7,8 +7,8 @@ const Counter = () => {
   return (
     <div>
         <h2>value: {count}</h2>
-        <button onClick={()=> dispatch(increment())}>add</button>
-        <button onClick={()=> dispatch(decrement())}>add</button>
+        <button onClick={()=> dispatch(increment())}>inc</button>
+        <button onClick={()=> dispatch(decrement())}>dec</button>
     </div>
   )
 }
